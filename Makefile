@@ -6,7 +6,6 @@ RUN1 = docker run --rm -v $(WORKDIR):/home/rstudio --user $(shell id -u):$(shell
 
 # list below your targets and their recipes
 all:
-	Rscript -e "repro::automate()"
 	$(RUN1) Scripts/01_functions.R
 	$(RUN1) Scripts/02_data_prep.R
 	$(RUN1) Scripts/03_item_selection.R
