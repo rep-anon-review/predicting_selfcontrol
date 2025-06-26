@@ -1,7 +1,7 @@
 # Reproducing the results
 
 This repository contains all code, data, and configuration needed to reproduce the analysis for the article  
-*[Linking Trait Items of Self-Control to Broader Conceptualizations of Self-Control Using Machine Learning](https://doi.org/10.31234/osf.io/3jsy8_v1)*
+*Linking Trait Items of Self-Control to Broader Conceptualizations of Self-Control Using Machine Learning*
 
 ### Step 1: Install prerequisites
 
@@ -16,8 +16,7 @@ Make sure the following software is installed on your system:
 Open your system terminal (e.g., Terminal app on macOS or Git Bash on Windows) and run:
 
 ```
-git clone https://github.com/anabelbue/predicting_selfcontrol.git
-cd predicting_selfcontrol
+git clone https://github.com/rep-anon-review/predicting_selfcontrol.git
 ```
 
 ### Step 3: Run the full pipeline
